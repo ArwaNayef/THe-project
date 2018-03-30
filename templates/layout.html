@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% block head %}{% endblock %}
+		<link rel="stylesheet" type="text/css" href="../static/stylesheets/bootstarp.min.css">
+
+</head>
+
+
+
+<body>
+	<ul class="nav_bar">
+		<li><a href="/"> Home </a></li>
+		<li><a href="/health"> Health </a></li>
+		<li><a href="/english"> Learning English</a></li>
+		<li><a href="/programming"> Programming</a></li>
+		<li><a href="/different"> Extra </a></li>
+	</ul>
+
+
+	{% block body %}{% endblock %}
+
+</body>
+</html>
