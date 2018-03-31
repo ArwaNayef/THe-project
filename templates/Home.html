@@ -1,9 +1,32 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+<style>
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+  height: 400px;
+  width: 1300px;
+}
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;	
+}
+h2 {
+	text-align: center;
+}
+</style>
 </head>
+
 
 <body>
 <h1> Fire Yourself Up</h1>
@@ -14,6 +37,16 @@
 	What is "Fire Yourself Up" website? <br>
 	This website is really benefical for every teenager who tries to be better. So it has many different aspects like programming, learning English, health and some extra important things.
 </p>
+
+
+
+<div class="grid-container">
+  <div class="grid-item"><li>Learning English</li> </div>
+  <div class="grid-item"><li>Programming</li></div>
+  <div class="grid-item"><li>Health</li></div>  
+  <div class="grid-item"><li> different </li></div>  
+
+</div>
 
 </body>
 </html>
