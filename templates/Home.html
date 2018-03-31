@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
+{% extends "layout.html"%}
+{% block head %}
 <style>
 .grid-container {
   display: grid;
@@ -25,13 +24,13 @@ h2 {
 	text-align: center;
 }
 </style>
-</head>
+{% endblock%}
 
 
-<body>
+{% block body %}
 <h1> Fire Yourself Up</h1>
 <h2>
-	<img class="statics" src= "../statics/images/photo1.jpg"  height="250px" width="550">
+	<img src= "../statics/images/photo1.jpg"  height="250px" width="550">
 </h2>
 <p>
 	What is "Fire Yourself Up" website? <br>
@@ -41,12 +40,16 @@ h2 {
 
 
 <div class="grid-container">
-  <div class="grid-item"><li>Learning English</li> </div>
-  <div class="grid-item"><li>Programming</li></div>
-  <div class="grid-item"><li>Health</li></div>  
-  <div class="grid-item"><li> different </li></div>  
+  <div class="grid-item"><li>Learning English</li> <br>
+  <p><a href="https://www.w3schools.com/html/"> <img src="../statics/images/photo1.jpg" height="250px" width="350"></a>
+
+   </div>
+  <div class="grid-item"><li>Programming</li><br>
+  <p><a href="https://www.w3schools.com/html/"> <img src="../statics/images/photo1.jpg" height="250px" width="350"></a></div>
+  <div class="grid-item"><li>Health</li><br>
+  <p><a href="https://www.w3schools.com/html/"> <img src="../statics/images/photo1.jpg" height="250px" width="350"></a></div>  
+  <div class="grid-item"><li>Entertainment </li><br>
+  <p><a href="https://www.w3schools.com/html/"> <img src="../statics/images/photo1.jpg" height="250px" width="350"></a></div>  
 
 </div>
-
-</body>
-</html>
+{% endblock %}
