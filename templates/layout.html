@@ -3,42 +3,52 @@
 <head>
 	{% block head %}{% endblock %}
 		<link rel="stylesheet" type="text/css" href="../static/stylesheets/bootstarp.min.css">
+
 <style>
-.nav_bar li{
-	display: inline;
-	padding: 10px 10px;
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ADD8E6;
 }
 
-
-.nav_bar{
-	border: green solid 5px;
-	padding: 20px 20px;
-	
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 
-
-.nav_bar li:hover{
-
-	background-color:pink;
-
+/* Change the link color on hover */
+li a:hover {
+    background-color: #F0FFFF;
+    
 }
 
-
+.active {
+    background-color: yellow;
+    color: white;
+}
+body{
+  background-color: #F5DEB3;
+}
 </style>
 </head>
-
 <body>
-	<ul class="nav_bar">
-		<li><a href="/"> Home </a></li>
-		<li><a href="/health"> Health </a></li>
-		<li><a href="/english"> Learning English</a></li>
-		<li><a href="/programming"> Programming</a></li>
-		<li><a href="/different"> Extra </a></li>
-	</ul>
 
 
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/health">Health</a></li>
+  <li><a href="/english">Learning English</a></li>
+  <li><a href="/programming">Programming</a></li>
+  <li><a href="/different">Extra</a></li>
+
+</ul>
 	{% block body %}{% endblock %}
 
 </body>
 </html>
+
+

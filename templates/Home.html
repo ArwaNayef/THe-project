@@ -1,6 +1,7 @@
 {% extends "layout.html"%}
 {% block head %}
 <style>
+
 .grid-container {
   display: grid;
   grid-column-gap: 50px;
@@ -10,7 +11,7 @@
   width: 1300px;
 }
 .grid-item {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+ 
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -30,26 +31,33 @@ h2 {
 {% block body %}
 <h1> Fire Yourself Up</h1>
 <h2>
-	<img src= "../statics/images/photo1.jpg"  height="250px" width="550">
+	
+  <p>
+  What is "Fire Yourself Up" website? <br>
+  This website is really benefical for every teenager who tries to be better. So it has many different aspects like programming, learning English, health and some extra important things.
+  </p>
+  <img src= "../static/images/photo1.jpg"  height="250px" width="550">
 </h2>
-<p>
-	What is "Fire Yourself Up" website? <br>
-	This website is really benefical for every teenager who tries to be better. So it has many different aspects like programming, learning English, health and some extra important things.
-</p>
+
 
 
 
 <div class="grid-container">
   <div class="grid-item"><li>Learning English</li> <br>
-  <p><a href="https://www.w3schools.com/html/"> <img src="../statics/images/photo1.jpg" height="250px" width="350"></a>
+  <p><a href="https://www.w3schools.com/html/"> <img src="../static/images/photo1.jpg" height="250px" width="350"></a>
 
    </div>
   <div class="grid-item"><li>Programming</li><br>
-  <p><a href="https://www.w3schools.com/html/"> <img src="../statics/images/photo1.jpg" height="250px" width="350"></a></div>
+  <p><a href="https://www.w3schools.com/html/"> <img src="../static/images/photo1.jpg" height="250px" width="350"></a></div>
+
+
+
+
+
   <div class="grid-item"><li>Health</li><br>
-  <p><a href="https://www.w3schools.com/html/"> <img src="../statics/images/photo1.jpg" height="250px" width="350"></a></div>  
+  <p><a href="https://www.w3schools.com/html/"> <img src="../static/images/photo1.jpg" height="250px" width="350"></a></div>  
   <div class="grid-item"><li>Entertainment </li><br>
-  <p><a href="https://www.w3schools.com/html/"> <img src="../statics/images/photo1.jpg" height="250px" width="350"></a></div>  
+  <p><a href="https://www.w3schools.com/html/"> <img src="../static/images/photo1.jpg" height="250px" width="350"></a></div>  
 
 </div>
 {% endblock %}
