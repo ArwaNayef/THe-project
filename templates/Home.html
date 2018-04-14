@@ -25,42 +25,60 @@ h1 {
 h2 {
 	text-align: center;
 }
+
+.pandul{
+  color: black;
+  float: left;
+  padding-left: 50px;
+  padding-top: 70px;
+
+}
+p{
+  font-size: 20px;
+}
+ .images{
+  float: right;
+  margin: 60px 30px;
+  padding-top: 70px;
+ }
+
+
 </style>
 {% endblock%}
 
 
 {% block body %}
-<h1> Fire Yourself Up</h1>
 
-	<img class= "images" src= "../static/images/home1.jpg" >
+
+	<img class= "images" src= "../static/images/home2.jpg" >
   
   <div class= pandul>
     <p>
     <strong>What is "Fire Yourself Up" website? </strong><br>
-    This website is made for ambitious teenager <br> who tries to be better. So it has many different aspects like <br>programming, learning English,health and <br> some extra important things.
+    This website is made for ambitious teenagers <br> who tries to be better. So it has many different aspects like <br>programming, learning English,health and <br> some extra important things.
     </p>
   </div>
 
 
-
+  <p></p>
 
 
 <div class="grid-container">
   <div class="grid-item"><li>Learning English</li> <br>
-  <p><a href="https://www.w3schools.com/html/"> <img src="../static/images/photo1.jpg" height="250px" width="350"></a>
+  <p><a href="english"> <img src="../static/images/Englishhome.jpeg" height="250px" width="350"></a>
 
    </div>
   <div class="grid-item"><li>Programming</li><br>
-  <p><a href="https://www.w3schools.com/html/"> <img src="../static/images/photo1.jpg" height="250px" width="350"></a></div>
+  <p><a href="programming"> <img src="../static/images/codinghome.jpg" height="250px" width="350"></a></div>
 
 
 
 
 
   <div class="grid-item"><li>Health</li><br>
-  <p><a href="https://www.w3schools.com/html/"> <img src="../static/images/photo1.jpg" height="250px" width="350"></a></div>  
+  <p><a href="health"> <img src="../static/images/healthhome.jpg" height="250px" width="350"></a></div>  
   <div class="grid-item"><li>Entertainment </li><br>
-  <p><a href="https://www.w3schools.com/html/"> <img src="../static/images/photo1.jpg" height="250px" width="350"></a></div>  
+  <p><a href="different"> <img src="../static/images/entertianment.jpg" height="250px" width="350"></a></div>  
 
 </div>
 {% endblock %}
