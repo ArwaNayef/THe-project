@@ -1,6 +1,6 @@
-<html>
-<head>
-<tittle>Different</tittle>
+{% extends "layout.html"%}
+{% block head %}
+
 <name="viewport"content="width=device-width,initial-scale=1">
 <style>
 {
@@ -8,9 +8,9 @@
 }
 .column{
 	float:left;
-	width:40%;
-	padding: 10px;
-	height:300px;
+	width:33.3%;
+	padding: 0px;
+	height:600px;
 }
 .row:after{
 	content:"";
@@ -24,17 +24,18 @@
 
 
 <link rel="stylesheet" type="text/css" href="../static/stylesheets/Diffrent.css">
-</head>
+{% endblock %}
+{% block body %}
 <body>
 <div class="row">
 	<div class="column"
-style="background-color:#aaa;">
+style="background-color:orange;">
 
 <h1>Youtube Links</h1>
-<p>Youtube Links Youtube Links Youtube Links Youtube Links Youtube Links Youtube Links Youtube Links Youtube Links</p>
+<p>Youtube Links consist of motivation videos,english songs,and assorted benefical videos.</p>
 </div>
 <div class="column"
-style="background-color:#bbb;">
+style="background-color:lightgreen;">
 
 <h2>good website</h2>
 <ul>
@@ -43,15 +44,20 @@ style="background-color:#bbb;">
     <li>the third branch</li>
 </ul>
 
+
+</div>
+
+
+<div class="column"
+style="background-color:lightblue;">
+
 <h2>books links</h2>
 <ul>
     <li>book number 1</li>
     <li>the second book</li>
     <li>the third book</li>
 </ul>
+
 </div>
-</div>
 
-
-
-</html>
+{% endblock %}

@@ -1,13 +1,39 @@
-<html>
-<head>
-<tittle>English</tittle>
+{% extends "layout.html"%}
+{% block head %}
+ 
 
+<name="viewport"content="width=device-width,initial-scale=1">
+<style>
+{
+	box-sizing:border-box;
+}
+.column{
+	float:left;
+	width:33.3%;
+	padding: 0px;
+	height:600px;
+}
+.row:after{
+	content:"";
+	display:table;
+	clear:both; 
+}
+</style>
 
 <link rel="stylesheet" type="text/css" href="../static/stylesheets/English.css">
-</head>
+ 
+{% endblock %}
+{% block body %}
 <body>
+<div class="row">
+	<div class="column"
+style="background-color:orange ;">
+	
 <h1>Youtube Links</h1>
 <p>Youtube Links Youtube Links Youtube Links Youtube Links Youtube Links Youtube Links Youtube Links Youtube Links</p>
+</div>
+<div class="column"
+style="background-color:lightgreen;">
 
 <h2>good website</h2>
 <ul>
@@ -15,7 +41,9 @@
     <li>the second branch</li>
     <li>the third branch</li>
 </ul>
-
+</div>
+<div class="column"
+style="background-color:lightblue">
 <h2>books links</h2>
 <ul>
     <li>book number 1</li>
@@ -23,7 +51,8 @@
     <li>the third book</li>
 </ul>
 
+</div>
 
-
-
-</html>
+</body>
+{% endblock %}
+ 
