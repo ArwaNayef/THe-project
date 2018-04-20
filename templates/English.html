@@ -1,74 +1,62 @@
 {% extends "layout.html"%}
-{% block head %}
- 
 
-<name="viewport"content="width=device-width,initial-scale=1">
-<style>
-{
-	box-sizing:border-box;
-}
-.column{
-	width:33.3%;
-	padding: 0px;
-	height:600px;
-	float: left;
-	margin-top: 20px;
-}
-.row:after{
-	content:"";
-	display:table;
-	clear:both; 
-}
-
-</style>
-
-<link rel="stylesheet" type="text/css" href="../static/stylesheets/English.css">
- 
-{% endblock %}
 {% block body %}
-<body>
-<div class="row">
-	<div class="column"
-style="background-color:orange ;">
-	
-<h1>Youtube channels</h1>
-<ul>
-    <li> <a href="https://www.youtube.com/user/BCLearnEnglishTeens">
- 	<img src="../static/images/britich.png" >
-	</a> </li>
-	<li> <a href="https://www.youtube.com/channel/UCCq2yqG8Ou6cl-GDpdgkdqw">
-	<img src="../static/images/tofel.png">
-	</a></li>	
 
-</ul>
-</div>
-<div class="column"
-style="background-color:lightgreen;">
 
-<h2>good website</h2>
-<ol>
-     <li> <a href="http://www.elllo.org/">
- 	<img src="../static/images/website.jpeg" >
-	</a> </li>
-    <li> <a href="http://learnenglish.britishcouncil.org/ar/">
- 	<img src="../static/images/website2.png" style="width:300px;" >
-	</a> </li>
-</ol>
-</div>
-<div class="column"
-style="background-color:lightblue">
-<h2>books links</h2>
-<ol>
-	<li> <a href="https://www.fluentu.com/blog/english/best-books-to-learn-english/">
- 	<img src="../static/images/222.jpg" style="height: 250px;width: 210px;" >
-	</a> </li>
-  <li> <a href="https://www.fluentu.com/blog/english/best-books-to-learn-english/">
- 	<img src="../static/images/333.jpg" style="height: 230px;width: 210px;" >
-	</a> </li>
-</ol>
+<h1 style="text-align: center;">Youtube channels</h1>
+<br/>
 
+<div class="row no-gutters " style="background-color:lightblue;padding:20px;margin-bottom: 20px" >
+  <div class="col-12 col-sm-6 col-md-2 offset-md-4">
+  	    	    <a href="https://www.youtube.com/user/BCLearnEnglishTeens" style="width:150px;">
+
+ 	<img src="../static/images/britich.png" style="border-radius: 50% ;width:150px;"  /></a>
+
+  </div>
+  <div class="col-6 col-md-2 offset-md-1">
+  	    	    <a href=https://www.youtube.com/channel/UCCq2yqG8Ou6cl-GDpdgkdqw>
+
+ 	<img src="../static/images/tofel.png" width="150"  style="border-radius: 50% ;width:150px; height: 150px;" /></a>
+
+  </div>
 </div>
 
-</body>
+
+
+<h1 style="text-align: center;">Good websites</h1>
+<br/>
+
+<div class="row no-gutters " style="background-color:lightgreen;padding:20px;margin-bottom: 20px" >
+  <div class="col-12 col-sm-6 col-md-2 offset-md-4">
+  	    	    <a href="http://www.elllo.org/">
+ 	<img src="../static/images/website.jpeg" width="150"  style="border-radius: 50% ;width:150px; height: 150px;" /></a>
+
+  </div>
+  <div class="col-6 col-md-2 offset-md-1">
+  	    	    <a href="http://learnenglish.britishcouncil.org/ar/">
+ 	<img src="../static/images/website2.png" width="150"  style="border-radius: 50% ;width:150px; height: 150px;" /></a>
+
+  </div>
+</div>
+
+
+<h1 style="text-align: center;">Books</h1>
+<br/>
+
+<div class="row no-gutters " style="background-color:orange;padding:20px;margin-bottom: 20px" >
+  <div class="col-12 col-sm-6 col-md-2 offset-md-4">
+  	    	    <a href="https://www.fluentu.com/blog/english/best-books-to-learn-english/">
+ 	<img src="../static/images/222.jpg" width="150"  style="border-radius: 50% ;width:150px; height: 150px;" /></a>
+
+  </div>
+  <div class="col-6 col-md-2 offset-md-1">
+  	    	    <a href="https://www.fluentu.com/blog/english/best-books-to-learn-english/">
+ 	<img src="../static/images/333.jpg" width="150"  style="border-radius: 50% ;width:150px; height: 150px;" /></a>
+
+  </div>
+</div>
+
+
+
 {% endblock %}
  
