@@ -3,25 +3,20 @@
 <head>
 	{% block head %}
 		<link rel="stylesheet" type="text/css" href="../static/stylesheets/bootstrap.min.css">
-  {% endblock %}
-<style>
-h1{
-  float:right;
+{% endblock %}
+</head>
 
-  width: 70%;
-}
+<style>
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 20%;
-    background-color: #AFEEEE;
-    
+    background-color: #ADD8E6;
 }
 
-li a {
-
+ li a {
     display: block;
     color: black;
     padding: 8px 16px;
@@ -39,14 +34,19 @@ li a:hover {
     color: white;
 }
 body{
-  background-color: #FFFACD;
+  background-color: #F5DEB3;
+}
+h1.title{
+  width: 70%;
+  float: right;
 }
 </style>
+
 </head>
 <body>
+<h1 class="title"> Fire Yourself Up</h1>
 
-<h1>Fire Yourself Up</h1>
-<ul>
+<ul >
   <li><a href="/">Home</a></li>
   <li><a href="/health">Health</a></li>
   <li><a href="/english">Learning English</a></li>
@@ -58,6 +58,5 @@ body{
 
 </body>
 </html>
-
 
 

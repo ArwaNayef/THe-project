@@ -1,29 +1,62 @@
-<html>
-<head>
-<tittle>English</tittle>
+{% extends "layout.html"%}
+
+{% block body %}
 
 
-<link rel="stylesheet" type="text/css" href="../static/stylesheets/English.css">
-</head>
-<body>
-<h1>Youtube Links</h1>
-<p>Youtube Links Youtube Links Youtube Links Youtube Links Youtube Links Youtube Links Youtube Links Youtube Links</p>
+<h1 style="text-align: center;">Youtube channels</h1>
+<br/>
 
-<h2>good website</h2>
-<ul>
-    <li>website number 1</li>
-    <li>the second branch</li>
-    <li>the third branch</li>
-</ul>
+<div class="row no-gutters " style="background-color:lightblue;padding:20px;margin-bottom: 20px" >
+  <div class="col-12 col-sm-6 col-md-2 offset-md-4">
+  	    	    <a href="https://www.youtube.com/user/BCLearnEnglishTeens" style="width:150px;">
 
-<h2>books links</h2>
-<ul>
-    <li>book number 1</li>
-    <li>the second book</li>
-    <li>the third book</li>
-</ul>
+ 	<img src="../static/images/britich.png" style="border-radius: 50% ;width:150px;"  /></a>
 
+  </div>
+  <div class="col-6 col-md-2 offset-md-1">
+  	    	    <a href=https://www.youtube.com/channel/UCCq2yqG8Ou6cl-GDpdgkdqw>
+
+ 	<img src="../static/images/tofel.png" width="150"  style="border-radius: 50% ;width:150px; height: 150px;" /></a>
+
+  </div>
+</div>
 
 
 
-</html>
+<h1 style="text-align: center;">Good websites</h1>
+<br/>
+
+<div class="row no-gutters " style="background-color:lightgreen;padding:20px;margin-bottom: 20px" >
+  <div class="col-12 col-sm-6 col-md-2 offset-md-4">
+  	    	    <a href="http://www.elllo.org/">
+ 	<img src="../static/images/website.jpeg" width="150"  style="border-radius: 50% ;width:150px; height: 150px;" /></a>
+
+  </div>
+  <div class="col-6 col-md-2 offset-md-1">
+  	    	    <a href="http://learnenglish.britishcouncil.org/ar/">
+ 	<img src="../static/images/website2.png" width="150"  style="border-radius: 50% ;width:150px; height: 150px;" /></a>
+
+  </div>
+</div>
+
+
+<h1 style="text-align: center;">Books</h1>
+<br/>
+
+<div class="row no-gutters " style="background-color:orange;padding:20px;margin-bottom: 20px" >
+  <div class="col-12 col-sm-6 col-md-2 offset-md-4">
+  	    	    <a href="https://www.fluentu.com/blog/english/best-books-to-learn-english/">
+ 	<img src="../static/images/222.jpg" width="150"  style="border-radius: 50% ;width:150px; height: 150px;" /></a>
+
+  </div>
+  <div class="col-6 col-md-2 offset-md-1">
+  	    	    <a href="https://www.fluentu.com/blog/english/best-books-to-learn-english/">
+ 	<img src="../static/images/333.jpg" width="150"  style="border-radius: 50% ;width:150px; height: 150px;" /></a>
+
+  </div>
+</div>
+
+
+
+{% endblock %}
+ 
